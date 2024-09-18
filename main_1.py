@@ -3,12 +3,12 @@ import math
 from decimal import Decimal, ROUND_DOWN
 import matplotlib.pyplot as plt
 
-
+size = 20
 # Plot to see what's happening
-plt.figure(figsize=(10, 10))
+plt.figure(figsize=(size, size))
 plt.title('Circle Pattern')
-plt.xlim(-10, 10)
-plt.ylim(-10, 10)
+plt.xlim(-size, size)
+plt.ylim(-size, size)
 
 # Create doc object
 doc = ezdxf.new('R2010')
@@ -25,34 +25,22 @@ diameter_pattern = 1
 distance = 2
 
 centers_xy = {(0,0)}
-points_xy = {(0,0)}
 
-center_x0, center_y0 = list(centers_xy)[0]
 
+def hexagon(cx0,cy0,distance,index,color):
+    plt.text((cx0), (cy0), f'{index}', ha='center', va='center', color=color)
+    for i in range(6):
+        cx = Decimal(cx0) + Decimal(math.cos(math.pi / 3 * i) * distance).quantize(Decimal('.00001'))
+        cy = Decimal(cy0) + Decimal(math.sin(math.pi / 3 * i) * distance).quantize(Decimal('.00001'))
+        centers_xy.add((Decimal(cx), Decimal(cy)))
+        plt.text((cx), (cy), f'{index}:{i}', ha='center', va='center', color=color)
+colors = ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'brown', 'pink']
 for i in range(6):
-    px = Decimal(center_x0) + Decimal(math.cos(math.pi / 3 * i) * distance).quantize(Decimal('.00001'))
-    py = Decimal(center_y0) + Decimal(math.sin(math.pi / 3 * i) * distance).quantize(Decimal('.00001'))
-    centers_xy.add( ( Decimal(px), Decimal(py) ) )
-    points_xy.add( ( Decimal(px), Decimal(py) ) )
-    circle = plt.Circle((px/2, py/2), (diameter_pattern / 2)/2, fill=False, color='red', linewidth=1)
-    # Add text inside the circle
-    plt.text( (px/2), (py/2), str(i), ha='center', va='center')
+    cx0,cy0 = list(centers_xy)[i]
+    hexagon(cx0,cy0,distance,i,colors[i])
+#hexagon(0,0,distance,0,'black')
 
-print(len(centers_xy))
 
-for i in range(len(centers_xy)):
-    center_x0, center_y0 = list(centers_xy)[i]
-    for j in range(6):
-        px = Decimal(center_x0) + Decimal(math.cos(math.pi / 3 * j) * distance).quantize(Decimal('.00001'))
-        py = Decimal(center_y0) + Decimal(math.sin(math.pi / 3 * j) * distance).quantize(Decimal('.00001'))
-        centers_xy.add((Decimal(px), Decimal(py)))
-        points_xy.add((Decimal(px), Decimal(py)))
-        
-
-print(len(centers_xy))
-
-points_xy = list(points_xy)
-circles = []
 
 # for i in range(len(points_xy)):
 #     px, py = points_xy[i]
