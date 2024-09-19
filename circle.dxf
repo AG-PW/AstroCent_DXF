@@ -489,7 +489,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2460572.8922222224
+2460573.6724189813
   9
 $TDUCREATE
  40
@@ -497,7 +497,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2460572.8922337964
+2460573.6724189813
   9
 $TDUUPDATE
  40
@@ -549,7 +549,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-33
+93
   9
 $SURFTAB1
  70
@@ -905,7 +905,7 @@ $LWDISPLAY
   9
 $INSUNITS
  70
-6
+4
   9
 $HYPERLINKBASE
   1
@@ -929,11 +929,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{FCB11873-068F-4B02-BA5B-52D906C959A1}
+{AB2600B8-3AF6-4B52-B79B-B1FF1672FDEF}
   9
 $VERSIONGUID
   2
-{370D763B-B550-4540-B380-67FD9750F5BE}
+{B1989B17-7B23-499F-90FA-8BDB0389D966}
   9
 $EXTNAMES
 290
@@ -1323,9 +1323,9 @@ ISM
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -1339,9 +1339,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -1549,7 +1549,7 @@ LAYER
 100
 AcDbSymbolTable
  70
-2
+5
   0
 LAYER
   5
@@ -1594,6 +1594,78 @@ Defpoints
 Continuous
 290
 0
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+2F
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+Pattern
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+30
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+Shape
+ 70
+0
+ 62
+7
+  6
+Continuous
+370
+-3
+390
+13
+347
+21
+  0
+LAYER
+  5
+31
+330
+1
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+Hole
+ 70
+0
+ 62
+7
+  6
+Continuous
 370
 -3
 390
@@ -1701,7 +1773,7 @@ ACAD
   0
 APPID
   5
-30
+90
 330
 3
 100
@@ -1715,7 +1787,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-31
+91
 330
 3
 100
@@ -2025,13 +2097,413 @@ ENTITIES
   0
 CIRCLE
   5
-2F
+32
 330
 17
 100
 AcDbEntity
   8
-0
+Pattern
+100
+AcDbCircle
+ 10
+4.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+33
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+7.0
+ 20
+-1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+34
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+35
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-3.0
+ 20
+-8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+36
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+8.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+37
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+1.0
+ 20
+8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+38
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-6.0
+ 20
+6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+39
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-4.0
+ 20
+6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+3A
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-3.0
+ 20
+5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+3B
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-7.0
+ 20
+1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+3C
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+5.0
+ 20
+8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+3D
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+1.0
+ 20
+5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+3E
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-3.0
+ 20
+-1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+3F
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-7.0
+ 20
+-5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+40
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-2.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+41
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+1.0
+ 20
+-1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+42
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-5.0
+ 20
+1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+43
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-8.0
+ 20
+3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+44
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+3.0
+ 20
+5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+45
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-4.0
+ 20
+3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+46
+330
+17
+100
+AcDbEntity
+  8
+Pattern
 100
 AcDbCircle
  10
@@ -2041,7 +2513,1467 @@ AcDbCircle
  30
 0.0
  40
-25.0
+0.5
+  0
+CIRCLE
+  5
+47
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+48
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+2.0
+ 20
+-6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+49
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-5.0
+ 20
+-8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+4A
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+6.0
+ 20
+-6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+4B
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+4.0
+ 20
+-6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+4C
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-3.0
+ 20
+8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+4D
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-7.0
+ 20
+5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+4E
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+9.0
+ 20
+-1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+4F
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-7.0
+ 20
+-1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+50
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-10.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+51
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-5.0
+ 20
+5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+52
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-6.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+53
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-9.0
+ 20
+1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+54
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+3.0
+ 20
+8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+55
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-8.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+56
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-1.0
+ 20
+-8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+57
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-4.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+58
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+2.0
+ 20
+-3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+59
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-2.0
+ 20
+-6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+5A
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-5.0
+ 20
+-5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+5B
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+6.0
+ 20
+-3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+5C
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+2.0
+ 20
+3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+5D
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+4.0
+ 20
+-3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+5E
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+0.0
+ 20
+-6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+5F
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+6.0
+ 20
+3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+60
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+0.0
+ 20
+3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+61
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+8.0
+ 20
+-3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+62
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-5.0
+ 20
+8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+63
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+8.0
+ 20
+3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+64
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-1.0
+ 20
+1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+65
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-9.0
+ 20
+-1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+66
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-1.0
+ 20
+-5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+67
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+5.0
+ 20
+-8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+68
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-2.0
+ 20
+-3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+69
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-5.0
+ 20
+-1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+6A
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-6.0
+ 20
+-6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+6B
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+2.0
+ 20
+6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+6C
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-2.0
+ 20
+3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+6D
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+0.0
+ 20
+-3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+6E
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-4.0
+ 20
+-6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+6F
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+6.0
+ 20
+6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+70
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+6.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+71
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-1.0
+ 20
+5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+72
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+5.0
+ 20
+1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+73
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-1.0
+ 20
+-1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+74
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+5.0
+ 20
+-5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+75
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+1.0
+ 20
+-8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+76
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+4.0
+ 20
+3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+77
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+7.0
+ 20
+1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+78
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+10.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+79
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+7.0
+ 20
+-5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+7A
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+3.0
+ 20
+-8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+7B
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+9.0
+ 20
+1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+7C
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-6.0
+ 20
+-3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+7D
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-8.0
+ 20
+-3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+7E
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-2.0
+ 20
+6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+7F
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-6.0
+ 20
+3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+80
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-4.0
+ 20
+-3.4641
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+81
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+0.0
+ 20
+6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+82
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-3.0
+ 20
+1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+83
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-1.0
+ 20
+8.66025
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+84
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+5.0
+ 20
+5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+85
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+1.0
+ 20
+1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+86
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+-3.0
+ 20
+-5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+87
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+2.0
+ 20
+0.0
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+88
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+5.0
+ 20
+-1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+89
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+1.0
+ 20
+-5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+8A
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+4.0
+ 20
+6.9282
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+8B
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+7.0
+ 20
+5.19615
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+8C
+330
+17
+100
+AcDbEntity
+  8
+Pattern
+100
+AcDbCircle
+ 10
+3.0
+ 20
+1.73205
+ 30
+0.0
+ 40
+0.5
+  0
+CIRCLE
+  5
+8D
+330
+17
+100
+AcDbEntity
+  8
+Shape
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+15.0
+  0
+CIRCLE
+  5
+8E
+330
+17
+100
+AcDbEntity
+  8
+Hole
+100
+AcDbCircle
+ 10
+0.0
+ 20
+12.5
+ 30
+0.0
+ 40
+1.0
+  0
+CIRCLE
+  5
+8F
+330
+17
+100
+AcDbEntity
+  8
+Hole
+100
+AcDbCircle
+ 10
+0.0
+ 20
+-12.5
+ 30
+0.0
+ 40
+1.0
   0
 ENDSEC
   0
@@ -3055,7 +4987,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-32
+92
   0
 DICTIONARYVAR
   5
@@ -3067,11 +4999,11 @@ DictionaryVariables
 280
 0
   1
-1.3.3 @ 2024-09-18T19:24:48.851504+00:00
+1.3.3 @ 2024-09-19T14:08:17.218146+00:00
   0
 DICTIONARYVAR
   5
-32
+92
 330
 2D
 100
@@ -3079,7 +5011,7 @@ DictionaryVariables
 280
 0
   1
-1.3.3 @ 2024-09-18T19:24:49.385809+00:00
+1.3.3 @ 2024-09-19T14:08:17.799572+00:00
   0
 ENDSEC
   0
