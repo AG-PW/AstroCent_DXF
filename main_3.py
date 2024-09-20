@@ -6,10 +6,20 @@ import matplotlib.pyplot as plt
 
 # Plot to see what's happening
 size = 20
-plt.figure(figsize=(size, size))
+fig,ax = plt.subplots(figsize=(size, size))
 plt.title('Circle Pattern')
 plt.xlim(-size, size)
 plt.ylim(-size, size)
+ax.xaxis.set_major_locator(plt.MultipleLocator(1))
+ax.yaxis.set_major_locator(plt.MultipleLocator(1))
+
+# Add minor ticks
+ax.xaxis.set_minor_locator(plt.MultipleLocator(0.5))
+ax.yaxis.set_minor_locator(plt.MultipleLocator(0.5))
+
+# Customize grid appearance
+ax.grid(which='major', linestyle='-', linewidth='0.5', color='k')
+ax.grid(which='minor', linestyle='--', linewidth='0.25', color='k')
 
 # Create doc object
 doc = ezdxf.new('R2010',units=ezdxf.units.MM)
@@ -29,12 +39,12 @@ diameter_overall = 30
 
 
 # Parameter of the pattern
-diameter_pattern = 1
-distance = 2
+diameter_pattern = 2
+distance = 4
 
 # Hole parameters
 hole = 2
-spacing = 25
+spacing = 13.5*2
 
 circles = []
 def hexagon(cx0,cy0,distance):
@@ -65,7 +75,7 @@ new_centers = set()
 iteration_centers = centers
 
 
-for j in range(4):
+for j in range(2):
 
     for center in iteration_centers:
         cx0,cy0 = list(center)
@@ -87,4 +97,4 @@ for center in range(len(all_centers)):
 outside_shape(diameter_overall, spacing, hole)
 
 plt.show()
-doc.saveas('circle.dxf')
+doc.saveas('Astrocent_1.dxf')
